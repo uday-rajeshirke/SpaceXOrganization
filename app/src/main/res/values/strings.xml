@@ -1,0 +1,374 @@
+<resources>
+    <string name="app_name">SpaceX ORG</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_connection_tag">You\'re offline</string>
+    <string name="nav_header_subtitle">by Udaysinh Rajeshirke</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_launches">Launches</string>
+    <string name="title_fragment_core">Cores</string>
+    <string name="title_fragment_about_company">About Company</string>
+    <string name="title_fragment_about_app">About App</string>
+    <string name="title_activity_history">Historical Events</string>
+    <string name="title_fragment_roadster">Roadster</string>
+    <string name="tab_text_upcoming">Upcoming</string>
+    <string name="tab_text_past">Past</string>
+    <string name="title_activity_vehicles">Vehicles</string>
+    <string name="tab_text_rockets">Rockets</string>
+    <string name="tab_text_capsules">Capsules</string>
+    <string name="tab_text_ships">Ships</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin</string>
+    <string name="empty_text_details">This mission has currently no details</string>
+    <string name="data_empty">Unknown</string>
+    <string name="style_dark_map">
+      [
+        {
+          \"featureType\": \"all\",
+          \"elementType\": \"geometry\",
+          \"stylers\": [
+            {
+              \"color\": \"#242f3e\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"all\",
+          \"elementType\": \"labels.text.stroke\",
+          \"stylers\": [
+            {
+              \"lightness\": -80
+            }
+          ]
+        },
+        {
+          \"featureType\": \"administrative\",
+          \"elementType\": \"labels.text.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#746855\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"administrative.locality\",
+          \"elementType\": \"labels.text.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#d59563\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"poi\",
+          \"elementType\": \"labels.text.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#d59563\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"poi.park\",
+          \"elementType\": \"geometry\",
+          \"stylers\": [
+            {
+              \"color\": \"#263c3f\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"poi.park\",
+          \"elementType\": \"labels.text.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#6b9a76\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"road\",
+          \"elementType\": \"geometry.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#2b3544\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"road\",
+          \"elementType\": \"labels.text.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#9ca5b3\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"road.arterial\",
+          \"elementType\": \"geometry.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#38414e\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"road.arterial\",
+          \"elementType\": \"geometry.stroke\",
+          \"stylers\": [
+            {
+              \"color\": \"#212a37\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"road.highway\",
+          \"elementType\": \"geometry.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#746855\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"road.highway\",
+          \"elementType\": \"geometry.stroke\",
+          \"stylers\": [
+            {
+              \"color\": \"#1f2835\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"road.highway\",
+          \"elementType\": \"labels.text.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#f3d19c\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"road.local\",
+          \"elementType\": \"geometry.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#38414e\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"road.local\",
+          \"elementType\": \"geometry.stroke\",
+          \"stylers\": [
+            {
+              \"color\": \"#212a37\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"transit\",
+          \"elementType\": \"geometry\",
+          \"stylers\": [
+            {
+              \"color\": \"#2f3948\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"transit.station\",
+          \"elementType\": \"labels.text.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#d59563\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"water\",
+          \"elementType\": \"geometry\",
+          \"stylers\": [
+            {
+              \"color\": \"#17263c\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"water\",
+          \"elementType\": \"labels.text.fill\",
+          \"stylers\": [
+            {
+              \"color\": \"#515c6d\"
+            }
+          ]
+        },
+        {
+          \"featureType\": \"water\",
+          \"elementType\": \"labels.text.stroke\",
+          \"stylers\": [
+            {
+              \"lightness\": -20
+            }
+          ]
+        }
+      ]
+      </string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string-array name="list_rocket_header">
+        <item>Engines model</item>
+        <item>Fuel</item>
+        <item>Height</item>
+        <item>Weight</item>
+        <item>Diameter</item>
+        <item>Active</item>
+        <item>Sea level thrust</item>
+        <item>Vacuum thrust</item>
+    </string-array>
+    <string-array name="list_capsule_header">
+        <item>Crew capacity</item>
+        <item>First flight</item>
+        <item>Thruster systems</item>
+        <item>Weight</item>
+        <item>Diameter</item>
+        <item>Active</item>
+        <item>Launch Payload</item>
+        <item>Return Payload</item>
+    </string-array>
+    <string-array name="list_ship_header">
+        <item>Type</item>
+        <item>Primary role</item>
+        <item>Current speed</item>
+        <item>Weight</item>
+        <item>Status</item>
+        <item>Home port</item>
+    </string-array>
+    <string name="appwidget_text">No Data</string>
+    <string name="snackbar_action">RETRY</string>
+    <string name="tag_roadster_details">Roadster</string>
+    <string name="tag_roadster_orbit">Orbit</string>
+    <string name="tag_name">Name</string>
+    <string name="tag_launch_date">Launch date</string>
+    <string name="tag_speed">Speed</string>
+    <string name="tag_earth_distance">Earth distance</string>
+    <string name="tag_mars_distance">Mars distance</string>
+    <string name="tag_orbit_type">Orbit type</string>
+    <string name="tag_period">Period</string>
+    <string name="tag_inclination">Inclination</string>
+    <string name="tag_longitude">Longitude</string>
+    <string name="tag_apoapsis">Apoapsis</string>
+    <string name="tag_periapsis">Periapsis</string>
+    <string name="tag_semi_major_axis">Semi-major axis</string>
+    <string name="tag_core_serial">Core Serial</string>
+    <string name="tag_core_status">Core Status</string>
+    <string name="tag_header_core_block">Block</string>
+    <string name="tag_core_block">Null</string>
+    <string name="tag_core_missions_header">Missions</string>
+    <string name="tag_core_details_header">Details</string>
+    <string name="tag_history_date">24 JAN</string>
+    <string name="tag_history_title">Falcon 1</string>
+    <string name="tag_history_article_link">Article</string>
+    <string name="tag_history_wikipedia_link">Wikipedia</string>
+    <string name="tag_launch_adapter_image">launch_adapter_image</string>
+    <string name="tag_adapter_vehicle_header">Item Title</string>
+    <string name="tag_adapter_vehicle_sub_header">Item Title</string>
+    <string name="tag_company_founder">Founder, founded</string>
+    <string name="tag_company_address">Address</string>
+    <string name="tag_company_summary">Summary details</string>
+    <string name="tag_company_lead_details">Lead</string>
+    <string name="tag_company_ceo">CEO</string>
+    <string name="tag_company_cto">CTO</string>
+    <string name="tag_company_cto_propulsion">CTO Propulsion Dep.</string>
+    <string name="tag_company_coo">COO</string>
+    <string name="tag_company_statistics_details">Statistics</string>
+    <string name="tag_company_valuation">Value</string>
+    <string name="tag_company_test_sites">Test Sites</string>
+    <string name="tag_company_launch_sites">Launch Sites</string>
+    <string name="tag_company_employee_no">Employees</string>
+    <string name="tag_company_vehicles">Vehicles</string>
+    <string name="tag_launch_details_title">Falcon 1</string>
+    <string name="tag_launch_details_date">Jan 24, 2019</string>
+    <string name="tag_launch_details_site">California, USA</string>
+    <string name="tag_launch_details_launchpad">Launchpad Location</string>
+    <string name="tag_launch_details_payload_header">Payload</string>
+    <string name="tag_launch_details_payload_name">Payload name</string>
+    <string name="tag_launch_details_manufacturer">Manufacturer</string>
+    <string name="tag_launch_details_customer">Customer</string>
+    <string name="tag_launch_details_nationality">Nationality</string>
+    <string name="tag_launch_details_mass">Mass</string>
+    <string name="tag_launch_details_orbit">Orbit</string>
+    <string name="tag_launch_details_fairings_reused">Fairings reused</string>
+    <string name="tag_launch_details_recovery_attempt">Recovery attempt</string>
+    <string name="tag_launch_details_rocket_header">Rocket</string>
+    <string name="tag_launch_details_rocket_name">Rocket name</string>
+    <string name="tag_launch_details_rocket_type">Rocket type</string>
+    <string name="tag_launch_details_launch_success">Launch success</string>
+    <string name="tag_launch_details_core_serial">Core serial</string>
+    <string name="tag_launch_details_reused">Reused</string>
+    <string name="tag_launch_details_landing_type">Landing type</string>
+    <string name="tag_launch_details_landing_vehicle">Landing vehicle</string>
+    <string name="tag_launch_details_landing_success">Landing success</string>
+    <string name="tag_vehicle_details_specifications">Specifications</string>
+    <string name="tag_vehicle_details_header">Header</string>
+    <string name="tag_vehicle_details_title">Title</string>
+    <string name="tag_widget_refresh">widget_refresh</string>
+    <string name="nav_launch">Launch</string>
+    <string name="nav_roadster">Roadster</string>
+    <string name="nav_vehicles">Vehicles</string>
+    <string name="nav_cores">Cores</string>
+    <string name="nav_title_additional">Additional</string>
+    <string name="nav_history">History</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_about_company">About Company</string>
+    <string name="nav_about_app">About App</string>
+    <string name="tag_to_be_decided">TBD</string>
+    <string name="text_no_details">There are no details available</string>
+    <string name="text_no_mission">This has not participated in any mission.</string>
+    <string name="text_true_boolean_value">true</string>
+    <string name="text_false_boolean_value">false</string>
+    <string name="text_unknown_value">unknown</string>
+    <string name="text_no_data_available">No data available</string>
+    <string name="title_about_app">About App</string>
+    <string name="registered_trademark">Icon copyright by Spacex. \n And open source data from api.spacexdata.com</string>
+    <string name="designed_by">Designed and Developed by Udaysinh Rajeshirke</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="text_no_internet_connection">No internet connection</string>
+    <string name="widget_no_data">No Data</string>
+    <string name="widget_no_connection">No Connection</string>
+    <string name="text_flaticon">Flaticon.com</string>
+    <string name="text_github">Github.com</string>
+    <string name="text_about_app_1">Designed by Kiranshastry</string>
+    <string name="text_about_app_2">Designed by Pause08</string>
+    <string name="text_about_app_3">Designed by Pixelmeetup</string>
+    <string name="text_about_app_4">Designed by Unknown</string>
+    <string name="text_about_app_5">Designed by Freepik</string>
+    <string name="text_about_app_6">Designed by Xnimrodx</string>
+    <string name="text_about_app_7">CarouselEffect developed by Bhaveshjabuvani88</string>
+    <string name="test_device_id">33BE2250B43518CCDA7DE426D04EE231</string>
+    <string name="tag_launch_back_stack">launch_fragments</string>
+    <string name="kmperhour">&#160;km/h</string>
+    <string name="km">&#160;km</string>
+    <string name="days">&#160;days</string>
+    <string name="degree">&#176;</string>
+    <string name="astronomical_unit">&#160;ua</string>
+    <string name="core_status">Status:&#160;</string>
+    <string name="text_first_flight">First flight launch on&#160;</string>
+    <string name="text_ship_year">Ship build in&#160;</string>
+    <string name="text_participated">&#160;Participated in Missions:&#160;</string>
+    <string name="valuation_formart">%.0fM</string>
+    <string name="text_comma">,&#160;</string>
+    <string name="kg">kg</string>
+    <string name="tones">&#160;tons</string>
+    <string name="meter">m</string>
+    <string name="kn">kN</string>
+    <string name="text_people">&#160;people</string>
+    <string name="countdown_format_days">d&#160;:&#160;</string>
+    <string name="countdown_format_hours">h&#160;:&#160;</string>
+    <string name="countdown_format_mintues">m</string>
+    <string name="tag_vehicle_back_stack">vehicle_fragments</string>
+</resources>

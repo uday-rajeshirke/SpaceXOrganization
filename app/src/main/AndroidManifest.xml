@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uday.android.spacexorg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.uday.android.spacexorg.BasicApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.uday.android.spacexorg.ui.activity.SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <receiver android:name="com.uday.android.spacexorg.ui.widget.NextLaunchAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/next_launch_app_widget_info" />
+        </receiver>
+
+        <activity android:name="com.uday.android.spacexorg.ui.activity.CoresActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+
+        <activity
+            android:name="com.uday.android.spacexorg.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.uday.android.spacexorg.ui.activity.LaunchesActivity"
+            android:parentActivityName="com.uday.android.spacexorg.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.uday.android.spacexorg.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.uday.android.spacexorg.ui.activity.VehiclesActivity"
+            android:parentActivityName="com.uday.android.spacexorg.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.uday.android.spacexorg.MainActivity" />
+        </activity>
+        <activity android:name="com.uday.android.spacexorg.ui.activity.HistoryActivity" />
+        <activity android:name="com.uday.android.spacexorg.ui.activity.RoadsterActivity" />
+        <activity android:name="com.uday.android.spacexorg.ui.activity.GalleryActivity" />
+    </application>
+
+</manifest>

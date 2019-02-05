@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.alorma.timeline.SquareTimelineView
+        android:id="@+id/timeline_adapter_history"
+        android:layout_width="?android:listPreferredItemHeight"
+        android:layout_height="match_parent"
+        app:timeline_alignment="start"
+        app:timeline_indicatorSize="10dp"
+        app:timeline_lineStyle="linear"
+        app:timeline_type="middle"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="center_vertical"
+        app:contentPadding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_adapter_history_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="@string/tag_history_date"/>
+
+            <TextView
+                android:id="@+id/txt_adapter_history_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:text="@string/tag_history_title"/>
+
+            <TextView
+                android:id="@+id/txt_adapter_history_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/lorem_ipsum"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_adapter_history_article"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/tag_history_article_link"
+                    android:drawablePadding="6dp"
+                    android:drawableStart="@drawable/ic_link_24dp"/>
+
+                <Button
+                    android:id="@+id/btn_adapter_history_wikipedia"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/tag_history_wikipedia_link"
+                    android:drawablePadding="6dp"
+                    android:drawableStart="@drawable/ic_link_24dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

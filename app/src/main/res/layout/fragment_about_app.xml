@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorPrimary"
+    tools:context=".ui.fragment.AboutAppFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_frag_about_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_frag_about_app"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="@string/title_about_app"
+            android:elevation="0dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        <ImageView
+            android:id="@+id/image_company_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:contentDescription="@null"
+            android:paddingStart="30dp"
+            android:paddingEnd="10dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_spacex_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registered_trademark"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/designed_by"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_frag_about_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            tools:listitem="@layout/adapter_about_app_list" />
+
+    </android.support.design.widget.AppBarLayout>
+
+</LinearLayout>
